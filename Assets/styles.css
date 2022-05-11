@@ -1,0 +1,101 @@
+
+
+body{
+    background-image: url("./mybackground.jpg");
+    -webkit-background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+  
+    
+}
+/* Header text */
+.header-text {
+    font-size:3rem;  
+    line-height: 1.2;
+    
+   
+  }  
+/* navbar styling in here */
+.nav-bar{
+  text-align: center;
+  background-color: rgb(76, 85, 85); 
+  border-bottom: solid;
+  border-bottom-color: #ed28ff;  
+  border-bottom-width: 3px; 
+}
+
+
+/* Current Day content styling */
+#currentDay{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: aqua;
+    text-align: center;
+    margin: 0em;    
+  }
+  
+  /*  temperature data styling */
+   .col-12 .box {   
+    background:rgb(231, 88, 52);
+    border-radius: 65px;
+    width: 760px;
+    margin-top: -2px;
+    margin-left: -10px;
+}
+
+
+
+.bg-primary{
+  border-radius: 10px;
+  
+}
+/* temperature display box  */
+.bg-info { 
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  border-radius: 10px;
+  margin-bottom: 17px;  
+}
+/* my weather forecaste image size */
+.imgsize {
+  width: 100px;
+  float: right;
+  margin-right: 50%;
+}
+/* searched city button  */
+li{
+  margin-bottom: 10px;
+  margin-left: -40px;
+
+}
+/*Large devices (desktops, 992px and up) */
+@media only screen and (max-width:992px) {
+  .navbar .header-text{       
+    padding-bottom: 0;
+    border-bottom: solid;   
+    width: 100%;
+    text-align: center;
+    height: 10%;
+  }
+  
+}
+/*Small devices (landscape phones, 320px and up)*/
+@media only screen and (max-width:320px) { 
+.col-12 .box {
+  width: 100%;
+}
+.container{
+  width: 100%;
+}
+.navbar .footer .col-4 .row .nav{
+  width: 100%;
+  height:auto;  
+}
+.header-text{
+  font-size: 16px;
+}
+}
+#days{
+margin-left: -25px;
+}
